@@ -6,8 +6,9 @@ import concurrent.futures
 
 # 订阅链接列表（支持多个链接）
 SUBSCRIBE_URLS = [
-    "https://example.com/subscription1",
-    "https://example.com/subscription2"
+    "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd",
+    "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd2"
+    "https://raw.githubusercontent.com/xiaomayi0804/ding/refs/heads/main/vip-jd1"
 ]
 
 # 获取节点（支持多个链接）
