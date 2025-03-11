@@ -109,6 +109,7 @@ def process_nodes():
     if not valid_nodes:
         print("⚠️ 未获取到有效节点，输出为空！")
     else:
+        print(f"📁 正在将 {len(valid_nodes)} 个节点写入文件")
         with open("result.txt", "w") as f:
             for node, latency in valid_nodes:
                 f.write(f"{node} # {latency}ms\n")
